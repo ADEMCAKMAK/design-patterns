@@ -5,18 +5,18 @@ It is not a finished design that can be transformed directly into source or mach
 how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer 
 can use to solve common problems when designing an application or system. ( Someone has already solved your problems. )
 
-BEHAVIORAL 
+## BEHAVIORAL 
 
-  strategy design pattern
+  * strategy design pattern
 
-STRUCTURAL
-
-
-
-CREATIONAL
+## STRUCTURAL
 
 
 
-CONCURRENCY
+## CREATIONAL
+
+
+
+## CONCURRENCY
 
 
