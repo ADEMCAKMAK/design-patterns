@@ -32,7 +32,7 @@ build/
 .vscode/
 
 
-**behavioral/idea
+**behavioral/strategy/idea
 **behavioral/out
 **behavioral/src/*.class
 
