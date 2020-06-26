@@ -1,4 +1,4 @@
-# design-patterns
+# DESIGN PATTERNS 
 
 a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. 
 It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for 
@@ -20,3 +20,7 @@ can use to solve common problems when designing an application or system. ( Some
 ## CONCURRENCY
 
 
+
+
+#### design principles
+ * favor composition over inheritance.
