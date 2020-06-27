@@ -33,10 +33,10 @@ build/
 
 
 **behavioral/strategy/idea
-**behavioral/out
+**behavioral/strategy/out
 **behavioral/src/*.class
 
 **behavioral/observer/idea
-**behavioral/out
+**behavioral/strategy/out
 **behavioral/src/*.class
 
