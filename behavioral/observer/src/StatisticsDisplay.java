@@ -1,11 +1,11 @@
 public class StatisticsDisplay implements Observer, DisplayElement{
 
     private Long state;
-    private Subject subject;
+    private Observable observable;
 
-    public StatisticsDisplay(Subject subject) {
-        this.subject = subject;
-        subject.registerObserver(this);
+    public StatisticsDisplay(Observable observable) {
+        this.observable = observable;
+        observable.registerObserver(this);
     }
 
     @Override

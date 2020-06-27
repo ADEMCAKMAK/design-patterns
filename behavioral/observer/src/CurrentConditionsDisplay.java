@@ -1,11 +1,11 @@
 public class CurrentConditionsDisplay implements Observer, DisplayElement{
 
     private Long state;
-    private Subject subject;
+    private Observable observable;
 
-    public CurrentConditionsDisplay(Subject subject) {
-        this.subject = subject;
-        subject.registerObserver(this);
+    public CurrentConditionsDisplay(Observable observable) {
+        this.observable = observable;
+        observable.registerObserver(this);
     }
 
     @Override

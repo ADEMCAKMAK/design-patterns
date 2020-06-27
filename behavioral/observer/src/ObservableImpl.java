@@ -4,13 +4,15 @@ import java.util.List;
 /**
  *  its contains all subscriber
  */
-public class Publisher implements Subject {
+public class ObservableImpl implements Observable {
 
     private List<Observer> observers;
     private Long state;
+    private boolean changed;
 
-    public Publisher() {
+    public ObservableImpl() {
         observers = new ArrayList<>();
+        changed = false;
     }
 
     public List<Observer> getObservers() {
@@ -26,6 +28,7 @@ public class Publisher implements Subject {
     }
 
     public void setState(Long state) {
+        this.changed = true;
         this.state = state;
     }
 
@@ -36,6 +39,11 @@ public class Publisher implements Subject {
     public void setData(Long state) {
         this.setState(state);
         dataChanged();
+    }
+
+    @Override
+    public boolean changed() {
+        return changed;
     }
 
     @Override
@@ -52,7 +60,10 @@ public class Publisher implements Subject {
 
     @Override
     public void notifyObservers() {
-        for (Observer observer : observers)
-            observer.update(state);
+        if( changed() ){
+            for (Observer observer : observers)
+                observer.update(state);
+            changed = false;
+        }
     }
 }

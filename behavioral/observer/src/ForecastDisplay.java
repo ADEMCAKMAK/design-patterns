@@ -4,11 +4,11 @@
 public class ForecastDisplay implements Observer, DisplayElement {
 
     private Long state;
-    private Subject subject;
+    private Observable observable;
 
-    public ForecastDisplay(Subject subject) {
-        this.subject = subject;
-        subject.registerObserver(this);
+    public ForecastDisplay(Observable observable) {
+        this.observable = observable;
+        observable.registerObserver(this);
     }
 
     @Override
