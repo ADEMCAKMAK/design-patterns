@@ -36,3 +36,7 @@ build/
 **behavioral/out
 **behavioral/src/*.class
 
+**behavioral/observer/idea
+**behavioral/out
+**behavioral/src/*.class
+

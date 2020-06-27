@@ -14,5 +14,3 @@ public class StrategyDesignPattern {
         model.performFly();
     }
 }
-
-
