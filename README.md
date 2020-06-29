@@ -26,3 +26,4 @@ can use to solve common problems when designing an application or system. ( Some
  * favor composition over inheritance.
  * program to interfaces, not implementations.
  * Strive for loosely coupled designs between objects that interact.
+ * Classes should be open for extension, but closed for modification.
