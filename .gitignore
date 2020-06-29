@@ -40,3 +40,7 @@ build/
 **behavioral/observer/out
 **behavioral/src/*.class
 
+**structural/decorator/idea
+**structural/decorator/out
+**structural/src/*.class
+
