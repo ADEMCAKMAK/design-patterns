@@ -44,3 +44,11 @@ build/
 **structural/decorator/out
 **structural/src/*.class
 
+**creational/simpleFactory/idea
+**creational/simpleFactory/out
+**creational/src/*.class
+
+**creational/FactoryMethod/idea
+**creational/FactoryMethod/out
+**creational/src/*.class
+
