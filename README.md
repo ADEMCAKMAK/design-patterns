@@ -16,7 +16,9 @@ can use to solve common problems when designing an application or system. ( Some
 
 ## CREATIONAL
 
-
+  * factory design pattern
+    - simple factory pattern
+    - factory method pattern
 
 ## CONCURRENCY
 
